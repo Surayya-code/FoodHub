@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903651011942",
+    "project_id": "foodhub-176a2",
+    "storage_bucket": "foodhub-176a2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903651011942:android:846c326965a04fb2f1aca7",
+        "android_client_info": {
+          "package_name": "com.example.foodhub"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903651011942-kbus2n1pu9cehh52otb2tuhc97aocntl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFmALVPGvJInwxN1w13tzKM9F_eLIuySk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903651011942-kbus2n1pu9cehh52otb2tuhc97aocntl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
