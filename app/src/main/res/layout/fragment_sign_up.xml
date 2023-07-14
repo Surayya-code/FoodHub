@@ -61,7 +61,7 @@
 
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/fullNameTextInput"
+                android:id="@+id/fullNameText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="italic"
@@ -87,7 +87,7 @@
 
 
         <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/usernameTextInput"
+                android:id="@+id/usernameText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="italic"
@@ -116,11 +116,11 @@
 
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/emailTextInput"
+                android:id="@+id/emailText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="italic"
-                android:inputType="text"
+                android:inputType="textEmailAddress"
                 android:hint="Email" />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -132,7 +132,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:boxCornerRadiusBottomEnd="10dp"
@@ -140,15 +140,16 @@
             app:boxCornerRadiusTopEnd="10dp"
             app:boxCornerRadiusTopStart="10dp"
             app:endIconMode="clear_text"
-            app:hintAnimationEnabled="false">
+            app:hintAnimationEnabled="false"
+            app:passwordToggleEnabled="true">
 
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/passwordeTextInput"
+                android:id="@+id/passwordText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="italic"
-                android:inputType="text"
+                android:inputType="textPassword"
                 android:hint="Password" />
 
         </com.google.android.material.textfield.TextInputLayout>
